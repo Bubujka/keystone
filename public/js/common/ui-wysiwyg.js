@@ -31,6 +31,7 @@ jQuery(function($) {
 		menubar: false,
 		plugins: plugins,
 		toolbar: toolbar,
+		entities: Keystone.wysiwyg.options.entities,
 		skin: 'keystone',
 		uploadimage_form_url: '/keystone/api/cloudinary/upload'
 	});
@@ -44,6 +45,7 @@ jQuery(function($) {
 		plugins: plugins,
 		toolbar: 'code',
 		statusbar: false,
+		entities: Keystone.wysiwyg.options.entities,
 		skin: 'keystone'
 	});
 
